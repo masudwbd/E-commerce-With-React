@@ -1,0 +1,91 @@
+.icon-number{
+  position: absolute;
+  top: 122px;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+.sidebar_icon{
+  font-size: 17px;
+}
+.sidebar-menu{
+  padding-left: 60PX;
+  padding-right: 20px;
+}
+.sidebar{
+  position: relative;
+}
+.categories{
+  position: absolute;
+  top: 225px;
+  left: 320px;
+  background-color: #fff;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 20px;
+}
+.slider-button{
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  color:#000;
+}
+.slider-button:hover{
+  color:#fff;
+}
+.category_image:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.daily_deals_header{
+  font-size:36px;
+  font-weight:bold;
+  position: relative;
+}
+.daily_deals_header::after{
+  background-color: #000;
+  content: "";
+  height: 2px;
+  position: absolute;
+  right: -100px;
+  top: 28px;
+  width: 80px;
+}
+.daily_deals_header::before{
+  background-color: #000;
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: -100px;
+  top: 28px;
+  width: 80px;
+}
+.product-card{
+  position:relative
+}
+.product_image:hover img{
+  transform:scale(1.1);
+  transition: 0.4s;
+}
+.product-icons-container{
+position:absolute;
+top:40%;
+left:30%;
+right:30%
+}
+.product-icons{
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #a749ff;
+  color:#fff;
+  margin:5px;
+}
+.product-icons:hover{
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #fa6bff;
+  transition: 0.10s;
+  color:#fff;
+  margin:5px;
+}
